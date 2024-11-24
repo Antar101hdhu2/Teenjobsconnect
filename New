@@ -1,0 +1,18 @@
+import React, { useState, useEffect } from 'react';
+import { Card } from "@/components/ui/card";
+import { MapPin, Calendar, DollarSign } from 'lucide-react';
+
+const TeenJobsConnect = () => {
+  // Fresh, clean code here
+  return (
+    <div className="min-h-screen bg-black">
+      <header className="header-gradient text-white py-16 px-8 text-center">
+        <h1 className="text-4xl font-bold mb-4">Teen Jobs Connect</h1>
+        <p className="text-xl opacity-90">Connecting Local Teens with Yard Work Opportunities</p>
+      </header>
+      {/* Rest of your clean components */}
+    </div>
+  );
+};
+
+export default TeenJobsConnect;
